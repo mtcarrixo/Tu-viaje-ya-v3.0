@@ -1,0 +1,15 @@
+.m{
+    &-inicio{
+        
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU308c_AXFUDJkFSD8Kx04_lfQqscjJIvJTA&usqp=CAU);
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            @include tamano;
+            padding: 10px ;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 2px;
+        
+    }
+}

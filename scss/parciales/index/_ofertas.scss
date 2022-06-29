@@ -1,0 +1,78 @@
+.ofertas {
+    background: #cccccc;
+    border-bottom: 5px solid #b5f2f2;
+    font-family: normal normal 18px quicksand;
+    color: map-get($colores, "verde");
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px;
+
+    &-content {
+        background: rgb(151, 229, 151);
+        padding: 30px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+    }
+
+    &-content {
+        grid-column: span 4;
+        justify-content: center;
+
+    }
+}
+
+    article {
+        padding: 50px;
+        margin-top: 20px;
+        border-radius: 25px;
+
+        h1 {
+            padding: 10px;
+            font-size: 20px;
+            color: white;
+            max-width: 900px;
+        }
+
+        p {
+            @extend h1;
+        }
+
+    }
+
+
+
+.maldivas {
+    background-image: url(https://cdn2.civitatis.com/maldivas/maldivas/guia/precios.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include tamano;
+    padding: 10px ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.corea {
+    background-image: url(https://www.kiwi.com/stories/wp-content/uploads/2022/05/south-korea-guide-daegu-panorama-tower_hero-1920x550.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include tamano;
+    padding: 10px ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.bariloche {
+    background-image: url(https://cdn.getyourguide.com/img/location/5d147ae8c6705.jpeg/99.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include tamano;
+    padding: 10px ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}

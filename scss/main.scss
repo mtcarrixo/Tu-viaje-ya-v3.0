@@ -1,0 +1,25 @@
+@mixin tamano {
+    height: 100%;
+    width: 100%;
+}
+
+@mixin saber{
+    border: 2px black solid;
+    border-radius: 3px;
+    background-color: rgb(135, 195, 252)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap');
+
+@import "./parciales/index/reset";
+@import "./parciales/index/variables";
+@import "./parciales/index/header";
+@import "./parciales/index/carousel";
+@import "./parciales/index/ofertas";
+@import "./parciales/index/redes";
+@import "./parciales/index/footer";
+@import "./parciales/index/wppflot";
+@import "./parciales/sobrenosotros/info";
+@import "./parciales/querys.scss";
+@import "./parciales/Vuelos/vuelos";
+@import "./parciales/inicio.scss/inicio";
